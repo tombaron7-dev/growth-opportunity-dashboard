@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SEO SWOT &amp; Recommendations | SEO Insight Pro</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary-fixed": "#6ffbbe",
+                      "on-background": "#0b1c30",
+                      "tertiary-container": "#2a1700",
+                      "surface-variant": "#d3e4fe",
+                      "surface-container-low": "#eff4ff",
+                      "on-tertiary-fixed-variant": "#653e00",
+                      "tertiary-fixed": "#ffddb8",
+                      "outline": "#76777d",
+                      "on-primary-container": "#7c839b",
+                      "on-tertiary": "#ffffff",
+                      "surface": "#f8f9ff",
+                      "on-error-container": "#93000a",
+                      "on-primary-fixed-variant": "#3f465c",
+                      "surface-container": "#e5eeff",
+                      "error": "#ba1a1a",
+                      "secondary": "#006c49",
+                      "inverse-surface": "#213145",
+                      "primary-fixed-dim": "#bec6e0",
+                      "on-secondary-fixed-variant": "#005236",
+                      "on-tertiary-fixed": "#2a1700",
+                      "tertiary-fixed-dim": "#ffb95f",
+                      "on-secondary": "#ffffff",
+                      "surface-dim": "#cbdbf5",
+                      "background": "#f8f9ff",
+                      "outline-variant": "#c6c6cd",
+                      "surface-container-high": "#dce9ff",
+                      "surface-bright": "#f8f9ff",
+                      "primary-container": "#131b2e",
+                      "secondary-container": "#6cf8bb",
+                      "tertiary": "#000000",
+                      "surface-container-lowest": "#ffffff",
+                      "on-tertiary-container": "#b87500",
+                      "secondary-fixed-dim": "#4edea3",
+                      "surface-container-highest": "#d3e4fe",
+                      "surface-tint": "#565e74",
+                      "on-primary-fixed": "#131b2e",
+                      "on-secondary-fixed": "#002113",
+                      "primary": "#000000",
+                      "inverse-primary": "#bec6e0",
+                      "primary-fixed": "#dae2fd",
+                      "on-error": "#ffffff",
+                      "error-container": "#ffdad6",
+                      "on-surface": "#0b1c30",
+                      "on-surface-variant": "#45464d",
+                      "on-primary": "#ffffff",
+                      "on-secondary-container": "#00714d",
+                      "inverse-on-surface": "#eaf1ff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "sm": "16px",
+                      "lg": "32px",
+                      "md": "24px",
+                      "base": "4px",
+                      "xl": "48px",
+                      "xs": "8px",
+                      "gutter": "24px",
+                      "container-max": "1440px"
+              },
+              "fontFamily": {
+                      "headline-sm": ["Inter"],
+                      "headline-md": ["Inter"],
+                      "label-caps": ["Inter"],
+                      "body-lg": ["Inter"],
+                      "display-lg": ["Inter"],
+                      "data-mono": ["Inter"],
+                      "body-md": ["Inter"]
+              },
+              "fontSize": {
+                      "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                      "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                      "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                      "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "display-lg": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "data-mono": ["14px", {"lineHeight": "20px", "fontWeight": "500"}],
+                      "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .swot-grid { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 1px; background-color: #E2E8F0; }
+        .swot-card { background-color: #FFFFFF; padding: 32px; transition: background-color 0.2s; }
+        .swot-card:hover { background-color: #F8FAFC; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+        .glass-header { backdrop-filter: blur(8px); background-color: rgba(255, 255, 255, 0.8); }
+    </style>
+</head>
+<body class="bg-surface text-on-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full h-20 bg-surface-container-lowest border-b border-outline-variant z-50">
+<div class="flex justify-between items-center px-lg w-full max-w-container-max mx-auto h-full">
+<div class="font-headline-sm text-headline-sm font-bold text-on-background">SEO Insight Pro</div>
+<div class="hidden md:flex gap-lg items-center h-full">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors h-full flex items-center" href="#">Executive Summary</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors h-full flex items-center" href="#">Market Demand</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors h-full flex items-center" href="#">Keyword Opportunities</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors h-full flex items-center" href="#">Competitor Insights</a>
+<a class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1 h-full flex items-center" href="#">SEO SWOT</a>
+</div>
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">calendar_today</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">settings</span>
+<button class="bg-primary text-on-primary px-md py-xs rounded text-body-md font-bold hover:opacity-80 transition-opacity">Download PDF</button>
+</div>
+</div>
+</nav>
+<!-- SideNavBar (Hidden on desktop for this specific layout to follow 'presentation-style') -->
+<main class="pt-20 pb-xl min-h-screen">
+<div class="max-w-container-max mx-auto px-lg py-xl">
+<!-- Page Header -->
+<header class="mb-xl">
+<div class="flex justify-between items-end">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant mb-xs block">SECTION 5.0</span>
+<h1 class="font-display-lg text-display-lg text-on-background">SEO SWOT &amp; Recommendations</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-sm">A strategic synthesis of current market positioning and a tiered roadmap for high-impact technical and creative execution.</p>
+</div>
+<div class="hidden lg:block text-right">
+<div class="font-label-caps text-label-caps text-on-surface-variant">AUDIT COMPLETION</div>
+<div class="font-headline-md text-headline-md text-secondary">94% OPTIMIZED</div>
+</div>
+</div>
+</header>
+<!-- SWOT Matrix -->
+<section class="mb-xl">
+<h2 class="font-headline-md text-headline-md text-on-background mb-lg flex items-center gap-xs">
+<span class="material-symbols-outlined text-primary">assessment</span>
+                    Strategic SWOT Matrix
+                </h2>
+<div class="swot-grid border border-outline-variant overflow-hidden rounded-lg shadow-sm">
+<!-- Strengths -->
+<div class="swot-card">
+<div class="flex items-center gap-xs mb-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<h3 class="font-label-caps text-label-caps text-on-surface-variant">STRENGTHS</h3>
+</div>
+<ul class="space-y-sm">
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-secondary text-lg">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Dominant domain authority in core B2B categories.</span>
+</li>
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-secondary text-lg">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">High-performing technical infrastructure (0.8s LCP).</span>
+</li>
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-secondary text-lg">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Robust backlink profile from Tier-1 industry publications.</span>
+</li>
+</ul>
+</div>
+<!-- Weaknesses -->
+<div class="swot-card">
+<div class="flex items-center gap-xs mb-md">
+<span class="material-symbols-outlined text-error" style="font-variation-settings: 'FILL' 1;">warning</span>
+<h3 class="font-label-caps text-label-caps text-on-surface-variant">WEAKNESSES</h3>
+</div>
+<ul class="space-y-sm">
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-error text-lg">remove_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Underperforming 'Solution' pages with high bounce rates.</span>
+</li>
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-error text-lg">remove_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Fragmented internal linking structure for new products.</span>
+</li>
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-error text-lg">remove_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Lack of localization for EMEA and APAC growth markets.</span>
+</li>
+</ul>
+</div>
+<!-- Opportunities -->
+<div class="swot-card">
+<div class="flex items-center gap-xs mb-md">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">trending_up</span>
+<h3 class="font-label-caps text-label-caps text-on-surface-variant">OPPORTUNITIES</h3>
+</div>
+<ul class="space-y-sm">
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-primary text-lg">add_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Capture "Low Intent" traffic via knowledge base expansion.</span>
+</li>
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-primary text-lg">add_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Strategic pivot to video-led SEO content (YouTube/Search).</span>
+</li>
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-primary text-lg">add_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Schema markup optimization for rich snippet dominance.</span>
+</li>
+</ul>
+</div>
+<!-- Threats -->
+<div class="swot-card">
+<div class="flex items-center gap-xs mb-md">
+<span class="material-symbols-outlined text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">dangerous</span>
+<h3 class="font-label-caps text-label-caps text-on-surface-variant">THREATS</h3>
+</div>
+<ul class="space-y-sm">
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-lg">info</span>
+<span class="font-body-md text-body-md text-on-surface">Aggressive ad-spend by direct competitors on core terms.</span>
+</li>
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-lg">info</span>
+<span class="font-body-md text-body-md text-on-surface">Google SGE (Search Generative Experience) volatility.</span>
+</li>
+<li class="flex gap-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-lg">info</span>
+<span class="font-body-md text-body-md text-on-surface">Market saturation in the high-intent 'Enterprise' segment.</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Recommended Next Steps (Roadmap) -->
+<section class="mb-xl">
+<h2 class="font-headline-md text-headline-md text-on-background mb-lg flex items-center gap-xs">
+<span class="material-symbols-outlined text-primary">route</span>
+                    Recommended Next Steps
+                </h2>
+<div class="space-y-md">
+<!-- Tier 1: Quick Wins -->
+<div class="bg-surface-container-low p-lg border border-outline-variant flex flex-col md:flex-row gap-lg">
+<div class="md:w-64 flex-shrink-0">
+<div class="inline-flex items-center gap-xs bg-secondary-container text-on-secondary-container px-sm py-base rounded-full mb-sm">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+<span class="font-label-caps text-[10px] tracking-widest">TIER 01</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-background">Quick Wins</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-xs">Low effort, high impact.</p>
+</div>
+<div class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-md">
+<div class="bg-white p-md border border-outline-variant">
+<h4 class="font-body-lg font-bold text-on-background mb-xs">Metadata Refinement</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Update CTR-underperforming titles for top 50 conversion pages. Est. Gain: +12% Traffic.</p>
+</div>
+<div class="bg-white p-md border border-outline-variant">
+<h4 class="font-body-lg font-bold text-on-background mb-xs">404 Remediation</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Redirect 142 orphaned high-authority URLs to relevant content. Est. Gain: +5% DA.</p>
+</div>
+</div>
+</div>
+<!-- Tier 2: Medium-Term -->
+<div class="bg-surface-container-low p-lg border border-outline-variant flex flex-col md:flex-row gap-lg">
+<div class="md:w-64 flex-shrink-0">
+<div class="inline-flex items-center gap-xs bg-surface-container-highest text-primary px-sm py-base rounded-full mb-sm">
+<span class="material-symbols-outlined text-[16px]">rocket_launch</span>
+<span class="font-label-caps text-[10px] tracking-widest">TIER 02</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-background">Strategic Growth</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-xs">Medium-term investment.</p>
+</div>
+<div class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-md">
+<div class="bg-white p-md border border-outline-variant">
+<h4 class="font-body-lg font-bold text-on-background mb-xs">Content Hub Deployment</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Launch three 'Definitive Guides' targeting 'What is...' long-tail keywords. Est. Timeline: 3 Months.</p>
+</div>
+<div class="bg-white p-md border border-outline-variant">
+<h4 class="font-body-lg font-bold text-on-background mb-xs">Technical Debt Audit</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Consolidate CSS and JS delivery to improve mobile Core Web Vitals to 95+. Est. Timeline: 2 Months.</p>
+</div>
+</div>
+</div>
+<!-- Tier 3: Long-Term -->
+<div class="bg-surface-container-low p-lg border border-outline-variant flex flex-col md:flex-row gap-lg">
+<div class="md:w-64 flex-shrink-0">
+<div class="inline-flex items-center gap-xs bg-primary-container text-white px-sm py-base rounded-full mb-sm">
+<span class="material-symbols-outlined text-[16px]">trophy</span>
+<span class="font-label-caps text-[10px] tracking-widest text-primary-fixed-dim">TIER 03</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-background">Market Leadership</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-xs">Long-term vision.</p>
+</div>
+<div class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-md">
+<div class="bg-white p-md border border-outline-variant">
+<h4 class="font-body-lg font-bold text-on-background mb-xs">International SEO</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Implement Hreflang and localized content for German and Japanese markets. Est. ROI: 240%.</p>
+</div>
+<div class="bg-white p-md border border-outline-variant">
+<h4 class="font-body-lg font-bold text-on-background mb-xs">AI Search Optimization</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Develop a knowledge-graph-first content strategy for LLM inclusion and SGE footprint.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action Section -->
+<section class="mt-xl relative overflow-hidden rounded-lg">
+<div class="absolute inset-0 z-0">
+
+</div>
+<div class="relative z-10 bg-on-background text-on-primary p-xl flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-lg">
+<div>
+<h2 class="font-display-lg text-display-lg text-white mb-xs">Ready to implement?</h2>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim">Book a session with our strategy lead to finalize the execution timeline.</p>
+</div>
+<div class="flex gap-md">
+<button class="bg-white text-on-background font-bold px-xl py-md rounded-lg hover:bg-surface-container-highest transition-colors">Schedule Strategy Meeting</button>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-base bg-surface border-t border-outline-variant">
+<div class="flex justify-between items-center px-lg w-full max-w-container-max mx-auto h-16">
+<div class="font-label-caps text-label-caps text-on-surface-variant">© 2024 Apex Strategy Group | Page 5 of 42</div>
+<div class="flex gap-lg">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Contact Support</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple intersection observer for subtle fade-in effects
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('opacity-0', 'translate-y-4');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-4');
+            observer.observe(section);
+        });
+    </script>
+</body></html>
